@@ -2,7 +2,6 @@ import View from './view.js';
 import icons from 'url:../../img/icons.svg'; // Parcel 2
 // import { fracty } from 'fracty'; // Parcel 2
 let fracty = require('fracty');
-
 class RecipeView extends View {
   _parentElement = document.querySelector('.recipe');
   _errorMessage = 'We could not find that recipe. Please try another one.';
